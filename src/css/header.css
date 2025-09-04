@@ -42,3 +42,25 @@
 .nav-link.active::after {
   background: #747bff;
 }
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.gallery-item {
+  flex-basis: calc(33% - 24px);
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 300px;
+}
